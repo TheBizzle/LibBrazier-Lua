@@ -1,0 +1,16 @@
+## Interface: 11302
+## Title: LibBrazier
+## Author: TheBizzle
+## Version: 1.0.0
+## X-Donate: www.github.com/TheBizzle
+## X-License: BSD-3
+## X-Website: www.github.com/TheBizzle/LibBrazier-Lua
+
+Brazier.lua
+Type.lua
+Function.lua
+Number.lua
+Maybe.lua
+Table.lua
+Equals.lua
+Array.lua

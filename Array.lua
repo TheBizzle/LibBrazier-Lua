@@ -17,6 +17,14 @@ function Array.all(f)
   end
 end
 
+-- [T] @ (T) => Array[T] => Array[T]
+function Array.append(x)
+  return function(arr)
+    table.insert(arr, x)
+    return arr
+  end
+end
+
 -- [T] @ Array[T] => Array[T] => Array[T]
 function Array.concat(xs)
   return function(ys)
